@@ -1,0 +1,108 @@
+.market{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.market .market_item {
+    width: 100%;
+}
+
+.market .market_item img {
+    width: 100%;
+}
+
+.hot_offers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    margin-bottom:30px ;
+}
+
+.hot_offers a {
+    color: #909090;
+}
+
+
+.hot_offers_apps{
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.hot_offers_apps .hot_offers_app{
+    /* border: 2px solid rgb(22, 176, 55); */
+    width: 19%;
+    text-align: center;
+}
+
+
+.hot_offers_apps .hot_offers_app p {
+    color: #909090;
+    margin: 20px 0;
+    font-size: 14px;
+}
+.hot_offers_apps .hot_offers_app p:last-child{
+    margin: 10px 0;
+}
+.hot_offers_apps .hot_offers_app h2 {
+    font-size: 16px;
+}
+
+.hot_offers_apps .hot_offers_app p span{
+    color: #ED3729;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hot_offers_apps .hot_offers_app .time{
+    display: flex;
+    justify-content: center;
+}
+
+.hot_offers_apps .hot_offers_app .time .time_box{
+    text-align: center;
+    margin: 5px;
+}
+.hot_offers_apps .hot_offers_app .time .time_box h2 {
+    border-right: 2px solid red;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.hot_offers_apps .hot_offers_app .time .time_box:last-child h2{
+    border: none;
+}
+
+
+.hot_offers_apps .hot_offers_app .icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: #909090;
+}
+
+.hot_offers_apps .hot_offers_app .icons i:hover {
+    color: #ED3729;
+}
+
+
+.popular_categories{
+    padding: 0 70px;
+}
+.popular_categories .popular_categories_item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.slider2{
+    width: 100%;
+    height: 300px;
+}
+
+.slider2 img {
+    width: 100%;
+    object-fit: cover;
+}
